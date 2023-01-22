@@ -19,7 +19,7 @@ int main() //sortowanie przez wybor
     {
         min = j;
         
-        for(int i = j+1; i < x; i++) // szukanie najmeijszej liczby
+        for(int i = j+1; i < x; i++) // szukanie najmniejszej liczby
         {
             if (tab[i] < tab[min])
             {
@@ -28,7 +28,7 @@ int main() //sortowanie przez wybor
         }
         swap(tab[j], tab[min]);
     }
-    for(int k=0; k<x;k++)
+    for(int k=0; k<x;k++)   // wypisanie posortowanych liczb
     {
         cout << tab[k] <<" ";
     }
