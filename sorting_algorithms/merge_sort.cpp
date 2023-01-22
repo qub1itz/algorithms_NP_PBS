@@ -24,7 +24,6 @@ int main()
     {
 		cout<<tab[i]<<" ";
     }
-    printf("\n");
 	
 	return 0;
 }
