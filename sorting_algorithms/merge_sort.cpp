@@ -8,7 +8,7 @@ int main()
 	int number;
 	do
     {
-        cout<<"Wprowadz liczbe elementow w tablicy: ";
+        cout<<"Wprowadz liczby do posortowania: ";
         cin>>number;
     }while(number<=0);
     int tab[number],pom[number];
