@@ -40,9 +40,9 @@ int main()
 
     cout << "Liczby po sortowaniu: " << endl;
 
-    for(int i=0; i<n; i++)  //wypisanie liczb posortowanych
+    for(int j=0; j<n; j++)  //wypisanie liczb posortowanych
     {
-        cout <<tab[i]<<" ";
+        cout <<tab[j]<<" ";
     }
 
     return 0;
