@@ -26,7 +26,9 @@ int main() //sortowanie przez wybor
                 min = i;
             }
         }
-        swap(tab[j], tab[min]);
+        int tmp=tab[j];
+        tab[j]=tab[min];
+        tab[min]=tmp;
     }
     for(int k=0; k<x;k++)
     {
