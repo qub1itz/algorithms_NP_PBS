@@ -9,7 +9,7 @@ int main (void)
 {
     int number;
 	
-	cout<<"Ile liczb chcesz posortować? ";
+	cout<<"Ile liczb chcesz posortować?: ";
     do
     {
 	cin>>number;
