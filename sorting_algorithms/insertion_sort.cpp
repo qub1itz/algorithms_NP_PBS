@@ -5,6 +5,12 @@ using namespace std;
 
 int main()
 {
+    int n;
+    do 
+    {
+        cout<<"Wpisz ile liczb chcesz posortować: ";
+        cin>>n;          //uzytkownik wpisuje ile liczb chce posortowac
+    }while(n<0);
     int tab[n];
     int element;
 
