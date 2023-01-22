@@ -1,7 +1,10 @@
 #include<iostream>
 #include <math.h>
+
 using namespace std;
+
 void quick_sort(int*,int);
+
 int main (void)
 {
     int number;
@@ -10,21 +13,26 @@ int main (void)
     do
     {
 	cin>>number;
-    }while(number<=0);
+    }
+	while(number<=0);
 	int tab[number];
 	for(int i=0;i<number;i++)
     {
         cout<<"Podaj "<<i+1<<" element do posortowania: ";
 		cin>>tab[i]; 
     }
+	
     quick_sort(tab,number);
+	
     cout<<"Elementy posortowane to: "<<endl;
-	for(int i=0;i<number;i++)
+	
+for(int i=0;i<number;i++)
     {
-		cout<<tab[i]<<" "; //wypisanie posortowanych elementów
+	cout<<tab[i]<<" "; //wypisanie posortowanych elementów
     }
 	cout<<endl;
-	return 0;
+return 0;
+	
 }
 void quick_sort(int* tab,int number)
 {

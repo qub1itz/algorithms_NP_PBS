@@ -26,9 +26,13 @@ int main() //sortowanie przez wybor
                 min = i;
             }
         }
-        swap(tab[j], tab[min]);
+        int tmp=tab[j];
+        tab[j]=tab[min];
+        tab[min]=tmp;
     }
+
     for(int i=0; i<x;i++) //wypisywanie
+
     {
         cout << tab[i] <<" ";
     }
