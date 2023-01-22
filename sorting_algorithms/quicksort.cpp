@@ -1,4 +1,4 @@
-#include<iostream>
+#include <iostream>
 #include <math.h>
 
 using namespace std;
@@ -81,9 +81,4 @@ void quick_sort(int* tab,int number)
         return;
     }
     quick_sort(tab,log(number-1));
-
-
-      
-    
-
 }
