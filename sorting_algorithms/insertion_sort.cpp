@@ -5,7 +5,6 @@ using namespace std;
 
 int main()
 {
-    int n=50;   //tutaj wybieramy ile liczb z wybranego pliku chcemy posortowac
     int tab[n];
     int element;
 
