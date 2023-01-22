@@ -9,7 +9,12 @@ using namespace std;
 
 int main()
 {
-    int n=50;   //tutaj wybieramy ile liczb z wybranego pliku chcemy posortowac
+    int n;
+    do 
+    {
+        cout<<"Wpisz ile liczb chcesz posortować: ";
+        cin>>n;          //uzytkownik wpisuje ile liczb chce posortowac
+    }while(n<0);
     int tab[n];
     int element;
 
