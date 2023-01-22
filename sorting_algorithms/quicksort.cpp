@@ -71,10 +71,7 @@ void quick_sort(int* tab,int number)
                 swap(tab[i],tab[j]);
             }
             if(i==j)
-                {
-                    break;
-                }
-        }
+                
     }
     if(number==0)
     {
