@@ -9,6 +9,7 @@ void bubble_sort(int tab[], int n){
       }
     }
   }
+  
   for(int k=0; k<n; k++){
     cout<<tab[k]<<"\t";
   }
