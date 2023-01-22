@@ -15,7 +15,7 @@ int main() //sortowanie przez wybor
     }
 
     int min;
-    for(int j = 0; j < x - 1; j++)
+    for(int j = 0; j < x - 1; j++) 
     {
         min = j;
         
@@ -30,9 +30,11 @@ int main() //sortowanie przez wybor
         tab[j]=tab[min];
         tab[min]=tmp;
     }
-    for(int k=0; k<x;k++)   // wypisanie posortowanych liczb
+
+    for(int i=0; i<x;i++) //wypisywanie
+
     {
-        cout << tab[k] <<" ";
+        cout << tab[i] <<" ";
     }
 
     return 0;
