@@ -15,6 +15,16 @@ void bubble_sort(int tab[], int n){
   }
 }
 int main(){
+  int liczby;
+  cout<<"Wpisz ile liczb chcesz posortowac: ";
+  cin>>liczby;
+  for (int i=0;i<liczby;i++)
+  {
+    cout<<"Wpisz liczbe: ";
+    cin>>tablica[i];
+  }
+  int tablica [liczby];
+  bubble_sort(tablica,liczby);
   
   return 0;
 }
