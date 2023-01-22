@@ -5,22 +5,22 @@ using namespace std;
 int main()
 {
 
-	int number;
+	int liczba;
 	do
     {
         cout<<"Wprowadz liczby do posortowania: ";
-        cin>>number;
-    }while(number<=0);
-    int tab[number],pom[number];
+        cin>>liczba;
+    }while(liczba<=0);
+    int tab[liczba],pom[liczba];
 	
-	for(int i=0;i<number;i++)
+	for(int i=0;i<liczba;i++)
     {
         cout<<"Wprowadz "<<i+1<<" element: ";
 		cin>>tab[i];
     }
-	merge_sort(tab,0,number-1);
+	merge_sort(tab,0,liczba-1);
     cout<<"Posortowane liczby to: \n";
-	for(int i=0;i<number;i++)
+	for(int i=0;i<liczba;i++)
     {
 		cout<<tab[i]<<" ";
     }
