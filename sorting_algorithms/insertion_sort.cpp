@@ -1,9 +1,5 @@
 #include <iostream>
 #include <fstream>
-#include <bits/stdc++.h>
-#include <chrono>
-#include <ctime>
-#include <iomanip>
 
 using namespace std;
 
