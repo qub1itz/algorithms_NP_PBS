@@ -34,7 +34,7 @@ for(int i=0;i<number;i++)
 return 0;
 	
 }
-void quick_sort(int* tab,int number)
+void quick_sort(int* tab,int liczby)
 {
     int pivot=0;
     for(int i=0;i<number;i++)
