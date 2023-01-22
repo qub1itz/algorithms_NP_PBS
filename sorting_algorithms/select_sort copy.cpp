@@ -15,11 +15,11 @@ int main() //sortowanie przez wybor
     }
 
     int min;
-    for(int j = 0; j < x - 1; j++)
+    for(int j = 0; j < x - 1; j++) 
     {
         min = j;
         
-        for(int i = j+1; i < x; i++) // szukanie najmeijszej liczby
+        for(int i = j+1; i < x; i++) // szukanie najmniejszej liczby
         {
             if (tab[i] < tab[min])
             {
@@ -28,9 +28,9 @@ int main() //sortowanie przez wybor
         }
         swap(tab[j], tab[min]);
     }
-    for(int k=0; k<x;k++)
+    for(int i=0; i<x;i++) //wypisywanie
     {
-        cout << tab[k] <<" ";
+        cout << tab[i] <<" ";
     }
 
     return 0;
