@@ -22,9 +22,8 @@ int main()
     cout<<"Posortowane liczby to: \n";
 	for(int i=0;i<liczba;i++)
     {
-		cout<<tab[i]<<" ";
+		cout<<tab[i]<<" "<<endl;
     }
-    printf("\n");
 	
 	return 0;
 }
