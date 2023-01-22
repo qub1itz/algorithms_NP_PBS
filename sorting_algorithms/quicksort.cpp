@@ -7,22 +7,22 @@ void quick_sort(int*,int);
 
 int main (void)
 {
-    int number;
+    int liczba;
 	
 	cout<<"Ile liczb chcesz posortować? ";
     do
     {
-	cin>>number;
+	cin>>liczba;
     }
-	while(number<=0);
-	int tab[number];
-	for(int i=0;i<number;i++)
+	while(liczba<=0);
+	int tab[liczba];
+	for(int i=0;i<liczba;i++)
     {
         cout<<"Podaj "<<i+1<<" element do posortowania: ";
 		cin>>tab[i]; 
     }
 	
-    quick_sort(tab,number);
+    quick_sort(tab,liczba);
 	
     cout<<"Elementy posortowane to: "<<endl;
 	
