@@ -28,9 +28,8 @@ int main (void)
 	
 for(int i=0;i<number;i++)
     {
-	cout<<tab[i]<<" "; //wypisanie posortowanych elementów
+	cout<<tab[i]<<" "<<endl; //wypisanie posortowanych elementów w osobnym rzędzie
     }
-	cout<<endl;
 return 0;
 	
 }
