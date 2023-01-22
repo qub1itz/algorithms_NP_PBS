@@ -34,7 +34,7 @@ for(int i=0;i<number;i++)
 return 0;
 	
 }
-void quick_sort(int* tab,int number)
+void quick_sort(int* tab, int number)
 {
     int pivot=0;
     for(int i=0;i<number;i++)
@@ -50,13 +50,13 @@ void quick_sort(int* tab,int number)
     }
     for(int i=0;i<pivot;i++)
     {
-        for(int j=pivot-1;j>i;j--)        //przeszukaj lewą stronę- elemnety mniejsze od pivota
+        for(int j=pivot-1;j>i;j--)        //przeszukaj lewą stronę- elementy mniejsze od pivota
         {
             if(tab[i]>tab[j])     //elementy mniejsze od pivota
             {
                 swap(tab[i],tab[i+1]);
             }
-            if(i==j)      //jezeli wszystkie elementy zostały porowanane
+            if(i==j)      //jezeli wszystkie elementy zostały porównane
             {
                 break;
             }
