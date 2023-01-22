@@ -1,16 +1,19 @@
 #include<iostream>
+
 void merge(int* , int, int, int);
 void merge_sort(int* ,int, int);
+
 using namespace std;
+
 int main()
 {
-
 	int liczba;
 	do
     {
         cout<<"Wprowadz liczby do posortowania: ";
         cin>>liczba;
-    }while(liczba<=0);
+    }
+    while(liczba<=0);
     int tab[liczba],pom[liczba];
 	
 	for(int i=0;i<liczba;i++)
@@ -33,9 +36,9 @@ int main()
 void merge_sort(int* tab,int lewy, int prawy)
 {
 	if(prawy<=lewy)   
-    {
-        return;                  //gdy mamy jeden element, to jest on juz posortowany
-    } 
+    	{
+        	return;                  //gdy mamy jeden element, to jest on juz posortowany
+   	} 
 	int srodek = (prawy+lewy)/2;       //znajdujemy srodek podtablicy
 	merge_sort(tab, lewy, srodek);     //dzielimy tablice na czesc lewa i prawa
 	merge_sort(tab, srodek+1, prawy);       
@@ -45,8 +48,8 @@ void merge_sort(int* tab,int lewy, int prawy)
 
 void merge(int* tab, int lewy, int srodek, int prawy) 
 {
-	int i = lewy, j = srodek + 1;  //i to pierwszy elelemnt w lewej, j to pierwszy element w prawej
-    int pom[prawy-lewy];               
+   int i = lewy, j = srodek + 1;  //i to pierwszy elelemnt w lewej, j to pierwszy element w prawej
+   int pom[prawy-lewy];               
   for(int i = lewy;i<=prawy; i++)   
   {
     pom[i] = tab[i];        //cala tablica zostaje przypisana do tablicy pomocniczej
@@ -72,7 +75,7 @@ void merge(int* tab, int lewy, int srodek, int prawy)
         tab[k] = pom[i++];      //uzupelnia 
     }
   }
-  else //jezeli skonczy sie jedna to druga normalnie sie przepisze
+  else //jeżeli skończy się jedna to druga normalnie się przepisze
   {
       tab[k] = pom[j++];
   }
