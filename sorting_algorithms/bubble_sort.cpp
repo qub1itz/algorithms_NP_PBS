@@ -18,7 +18,7 @@ void bubble_sort(int tab[], int n)
   }
   
   cout<<"Posortowane liczby: "<<endl;
-  for(int k=0; k<n; k++) //wypisanie posortowanych liczb
+  for(int k=0; k<n; k++) //wypisanie 
   {
     cout<<tab[k]<<"\t";
   }
