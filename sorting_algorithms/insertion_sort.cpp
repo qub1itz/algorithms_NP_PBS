@@ -42,8 +42,10 @@ int main()
 
     for(int j=0; j<n; j++)  //wypisanie liczb posortowanych
     {
+        cout<<j+1<<" liczba to: ";
         cout <<tab[j]<<" ";
     }
+    cout<<endl;
 
     
     return 0;

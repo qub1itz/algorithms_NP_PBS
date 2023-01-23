@@ -1,4 +1,5 @@
 #include <iostream>
+
 using namespace std;
 void bubble_sort(int tab[], int n){
   cout<<"Posortowane liczby: "<<endl;
@@ -9,18 +10,10 @@ void bubble_sort(int tab[], int n){
   for(int k=0; k<n; k++){
     cout<<tab[k]<<"\t";
   }
+
 }
-int main(){
-  int numbers;
-  cout<<"Wpisz ile liczb chcesz posortowac: ";
-  cin>>numbers;
-  for (int i=0;i<numbers;i++)
-  {
-    cout<<"Wpisz liczbe: ";
-    cin>>tablica[i];
-  }
-  int tablica [numbers];
-  bubble_sort(tablica,numbers);
-  
-  return 0;
+
+int main()
+{
+    return 0;
 }
