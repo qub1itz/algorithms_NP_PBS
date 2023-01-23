@@ -37,4 +37,5 @@ int main() //sortowanie przez wybor
     }
 
     return 0;
+    
 } 
