@@ -32,7 +32,6 @@ int main() //sortowanie przez wybor
     }
 
     for(int i=0; i<x;i++) //wypisywanie
-
     {
         cout << tab[i];
     }
