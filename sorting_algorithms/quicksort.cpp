@@ -13,6 +13,10 @@ int main (void)
     do
     {
 	cin>>num;
+	    if(num<=0)
+	    {
+		    cout<<"Liczba nie moze byc ujemna lub mniejsza od zera.)<<endl;
+	    }
     }
 	while(num<=0);
 	int tab[num];

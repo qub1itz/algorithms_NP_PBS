@@ -31,10 +31,13 @@ int main() //sortowanie przez wybor
         tab[min]=tmp;
     }
 
+
     for(int k=0; k<x;k++) //wypisywanie
+
     {
         cout << tab[k];
     }
 
     return 0;
+    
 } 
