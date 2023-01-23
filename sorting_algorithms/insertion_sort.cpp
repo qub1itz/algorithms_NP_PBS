@@ -24,26 +24,29 @@ int main()
     cout << " " << endl;
 
     //ALGORYTM SORTOWANIA PRZEZ WSTAWIANIE
-    int pomoc, j;
+    int help, j;
     for(int i=0; i<n; i++)
     {
-        pomoc = tab[i];
+        help = tab[i];
         j = i-1;
-        while(j>=0 && tab[j]>pomoc)
+        while(j>=0 && tab[j]>help)
         {
             tab[j+1] = tab[j];
             j--;
         }
-        tab[j+1] = pomoc;
+        tab[j+1] = help;
     }
     //KONIEC ALGORYTMU
 
     cout << "Liczby po sortowaniu: " << endl;
 
-    for(int i=0; i<n; i++)  //wypisanie liczb posortowanych
+    for(int j=0; j<n; j++)  //wypisanie liczb posortowanych
     {
-        cout <<tab[i]<<" ";
+        cout<<j+1<<" liczba to: ";
+        cout <<tab[j]<<" ";
     }
+    cout<<endl;
 
+    
     return 0;
 }

@@ -10,7 +10,7 @@ int main() //sortowanie przez wybor
 
     for(int i = 0; i < x; i++) // petla wprowadzania tab
     {
-        cout << "wprowadz liczbę:";
+        cout << "Wprowadz liczbę do ",i+1, " elementu w tablicy: "
         cin >> tab[i];
     }
 
@@ -31,11 +31,13 @@ int main() //sortowanie przez wybor
         tab[min]=tmp;
     }
 
-    for(int i=0; i<x;i++) //wypisywanie
+
+    for(int k=0; k<x;k++) //wypisywanie
 
     {
-        cout << tab[i] <<" ";
+        cout << tab[k];
     }
 
     return 0;
+    
 } 

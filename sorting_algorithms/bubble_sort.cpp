@@ -2,6 +2,7 @@
 
 using namespace std;
 
+
 void bubble_sort(int tab[], int n)
 {
   for(int i=0; i<n; i++)
@@ -10,6 +11,7 @@ void bubble_sort(int tab[], int n)
     {
       if(tab[j]>tab[j-1])
       {
+
         swap(tab[j],tab[j-1]);
       }
     }
@@ -22,7 +24,9 @@ void bubble_sort(int tab[], int n)
   }
 }
 
+
 int main()
 {
+
   return 0;
 }
