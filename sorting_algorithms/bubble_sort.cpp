@@ -25,6 +25,5 @@ void bubble_sort(int tab[], int n)
 
 int main()
 {
-
     return 0;
 }
