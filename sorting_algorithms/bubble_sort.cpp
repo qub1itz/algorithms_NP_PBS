@@ -10,7 +10,6 @@ void bubble_sort(int tab[], int n)
         {
             if (tab[j] > tab[j - 1])
             {
-
                 swap(tab[j], tab[j - 1]);
             }
         }
